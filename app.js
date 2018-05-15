@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const md5 = require('md5');
 const app = express();
 const hbs = require('hbs');
-mongoose.connect("mongodb://krikalyt:Krishna55958@ds215370.mlab.com:15370/krishnadb").then(res=>{console.log('connected to db successfully')})
+mongoose.connect("").then(res=>{console.log('connected to db successfully')})
 .catch(error=>{
   console.log('got an error', error.message);
 })
