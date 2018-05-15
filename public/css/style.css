@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+  margin : 0 auto;
+  padding: 0;
+}
+
+.width{
+  width: 40%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.right{
+  float: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .width{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
+}
